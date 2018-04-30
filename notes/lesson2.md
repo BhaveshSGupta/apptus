@@ -2,6 +2,7 @@
 
 Methods to create objects
 - Object Literal syntax 
+
 `js
  const circle = {
  radius:1,
@@ -28,8 +29,7 @@ Methods to create objects
    console.log('draw')
   }
  };
-}
-   `
+}`
    if key and value are same we can drop assignment as in above code.
 
    `function createCirle(radius){
@@ -42,6 +42,5 @@ Methods to create objects
 }
 const  circle = createCirle(1);
 circle.draw();
-` 
-
+`
 
