@@ -30,8 +30,7 @@ Methods to create objects
   }
  };
 }`
-   if key and value are same we can drop assignment as in above code.
-
+if key and value are same we can drop assignment as in above code.
    `function createCirle(radius){
  return{
   radius,
