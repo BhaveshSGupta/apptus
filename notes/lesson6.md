@@ -18,9 +18,9 @@ we can access properties several ways
   circle.location= {x:1}
   ```
 - then we can using [] bracket notation to access 
- ```javascript
- circle['location']={x:1}
- ```
+  ```javascript
+  circle['location']={x:1}
+  ```
   - this is useful in scenario for example when you want to dynamically access location.
     ```javascript
     const propertyName = 'location';
@@ -31,7 +31,7 @@ we can access properties several ways
   delete
   - delete is use to delete property from object.
   - There are several cases when you need to send object to client in such cases you use delete to delete the details and send the object.
-  ```javascript
-  delete circle['location']
-  ```
+    ```javascript
+    delete circle['location']
+    ```
   - here one can use dot notation or bracket notation
