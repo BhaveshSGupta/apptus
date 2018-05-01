@@ -1,11 +1,25 @@
-function Circle(radius){
-  this.radius = radius;
-  this.draw = function(){
-    console.log("draw");
-  }
+let x = 10;
+let y = x;
+x = 20
+
+let m = {value:10};
+let n = m;
+m.value = 20
+
+
+let number = 10;
+function increase(number){
+  number++;
 }
 
-Circle.call({},1)
-Circle.apply({},[])
+increase(number)
+console.log(number)
 
-const another = new Circle(1);
+let number1 = {value:10};
+function increase(number){
+  number.value++;
+}
+
+increase(number1)
+console.log(number1)
+ 
